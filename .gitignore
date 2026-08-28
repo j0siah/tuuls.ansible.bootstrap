@@ -1,0 +1,11 @@
+#Ignore temporary folders
+
+**/tmp
+**/.cache
+**/.DS_Store
+**/temp
+**/tmp
+**/_archive
+**/_output
+
+
