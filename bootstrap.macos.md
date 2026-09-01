@@ -77,7 +77,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv venv --python="${bootstrap_python_version}"
 
 # Install ansible-core into the same virtual environment
-uv pip install ansible-core="${bootstrap_ansible_version}"
+uv pip install ansible-core=="${bootstrap_ansible_version}"
 ```
 
 #### 4.2.2 Using Ansible
