@@ -10,13 +10,19 @@ This repository is intended to be used for initial bootstrapping of _Ansible_ to
 
 ## 3. Structure
 
-Instructions for bootstrapping each platform are stored in individual files following the format `bootstrap.<PLATFORM NAME>.md`, all lowercase.
+Instructions for bootstrapping each platform reside in individual directories within the `docs` directory.
 
 ```
 REPO_ROOT
     |
-    | ** macOS specific bootstrap instructions
-    +- bootstrap.macos.md
+    +- docs
+    |    |
+    |    | ** Name of the platform or operating system
+    |    +- <PLATFORM NAME>
+    |    |          |
+    |    |          | ** Instructions for bootstrapping on specific platform
+    |    |          +- README.md
+    |
     +- README.md
 ```
 
