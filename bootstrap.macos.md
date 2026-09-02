@@ -1,9 +1,9 @@
-# Bootstrapping Ansible management on macOS
+# Bootstrapping Ansible Management on macOS
 
 ## 1. About
 
 macOS without Mobile Device Management (MDM) requires a few manual steps to be done before control can be give to Ansible.
-This document contains instructions for manually bootstraping a macOS device without MDM enabled, and prior to Ansible having remote access (i.e., Remotely Managed) or being installed locally (i.e., Self Managed)
+This document contains instructions for manually bootstrapping a macOS device without MDM enabled, and prior to Ansible having remote access (i.e., Remotely Managed) or being installed locally (i.e., Self Managed)
 
 ## 2. Required Setup
 
